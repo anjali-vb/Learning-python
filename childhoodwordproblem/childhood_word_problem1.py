@@ -1,3 +1,4 @@
+#Alyssa,ben and Cindy are selling tickets.Ben sells two less than Alyssa,Cindy sells twice than Alyssa.totally there are 10 tickets.Howmany did each sold?
 
 for alyssa in range(11):       #checking all positive value sfor each
  for ben in range(11):
