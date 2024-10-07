@@ -16,6 +16,7 @@ while num>0:                  #here we are iterating using while loop when the n
     num=num//2                #If we then divide the integer by 2 (num//2) now take the quotient,then all the bits gets shifted to the right keep doing successive divisionsand take each quotients as the next bits untill the quotient becomes less than           
 if is_neg:                    #here in this problem we have already true neg flag value so for this value,
     result="-"+result         #we had done calculations by taking the positive value of the number so at last before printing the result we are adding a neg sign to the answer since the number here belongs to negative so the result should also neg
-    print(result)             #here atlast we are printing the result
-        
-  
+else:
+    is_neg=False              #for positive numbers
+print(result)
+    
