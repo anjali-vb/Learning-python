@@ -9,8 +9,8 @@ while abs(guess**2-x)>=epsilon and guess**2<x:    #here looping to check conditi
     guess=guess+increment                      #making increments in the guess to reach the required sqaure value of x
     num_guess+=1                              #counting the number of guesses so that we can see how many guesses we had took to reach the result
 print("num_guess=",num_guess)                 #the number of guesses are also being printed
-if abs (guess**2-x)>=epsilon:                #exit the loop when guess**2<x
+if abs (guess**2-x)>=epsilon:                #exit the loop because our guess range is not at all eliigible to take
         print("Failed on the square root of x")
-else:                                    #exit loop when guess**2 is close to the sqeoot of x
+else:                                    #exit loop when guess**2 is close to the square root of x
         print(guess,"is close to the square root of x")
    
