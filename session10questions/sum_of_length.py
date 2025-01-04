@@ -3,7 +3,7 @@
 def sum_length(L):
     """
         L is the list
-        returns the sum of the length of the eleemns of a list
+        returns the sum of the length of the elements of a list
     """
     total=0
     for s in (L):    #s is each element representation in list
